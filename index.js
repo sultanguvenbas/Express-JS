@@ -73,4 +73,9 @@ app.post('/', function(req, res){
     res.send("recieved your request!");
 });
 
+////////////////////////Database Connection/////////////////
+const database = require('./database.js');
+app.use('/database',database);
+
+
 app.listen(3000);

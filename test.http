@@ -1,0 +1,9 @@
+POST http://localhost:3000/database
+Content-Type: application/json
+
+
+{
+  "id": 2,
+  "name":"ali",
+  "lastname":"guvenbas"
+}
